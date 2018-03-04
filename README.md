@@ -3,6 +3,4 @@
 Firefox/Chrome addon to check a word in a dictionary. 
 
 ## How to use ##
-1. Install the addon
-2. Configure your source and target language
-3. Double-click on a word on a webpage to see the dictionary entry
+The best way to install the addon is to go to https://addons.firefox.com and install it from there.
