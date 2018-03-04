@@ -1,0 +1,25 @@
+{
+  "name": "webext-dictionary-lookup",
+  "version": "1.0.0",
+  "description": "Firefox/Chrome addon to check a word in a dictionary.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/avelotech/webext-dictionary-lookup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/avelotech/webext-dictionary-lookup#readme",
+  "dependencies": {
+    "@types/fs-extra": "^5.0.1",
+    "@types/gulp-zip": "^4.0.0",
+    "fs-extra": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-zip": "^4.1.0",
+    "web-ext": "^2.4.0"
+  }
+}

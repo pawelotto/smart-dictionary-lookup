@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Smart Dictionary Lookup",
+  "version": "1.0",
+  "description": "Click on a word in your browser window to immediately find out what it means in your favourite language.",
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js":  [ "dictlookup.js" ]
+    }
+  ]
+}
