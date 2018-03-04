@@ -6,6 +6,6 @@ gulp.task("package", function() {
   console.log('Packaging the extension')
   gulp
     .src("src/**/*")
-    .pipe(zip('dictionary-lookup.zip'))
-    .pipe(gulp.dest('dist'))
+    .pipe(zip('smart-dictionary-lookup.zip'))
+    .pipe(gulp.dest('web-ext-artifacts'))
 })
