@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Smart Dictionary Lookup",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Click on a word in your browser window to immediately find out what it means in your favourite language.",
   "homepage_url": "https://github.com/pawelotto/smart-dictionary-lookup#readme",
   "author": "Paweł Otto",

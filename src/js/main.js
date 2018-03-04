@@ -39,5 +39,4 @@ function openUrl(url) {
     }
   }
 
-
 }

@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-
   readSettings()
   var powerSwitch = document.getElementById("powerSwitch")
   var fromInput = document.getElementById("fromLang")
@@ -47,10 +46,12 @@ function togglePower() {
       powerTitle += "on"
       powerSwitch.style.opacity = "1"
       browser.storage.local.set({ power: true })
+      browser.tabs.reload()
     } else {
       powerTitle += "off"
       powerSwitch.style.opacity = "0.4"
       browser.storage.local.set({ power: false })
+      browser.tabs.reload()
     }
     powerText.innerText = powerTitle
   })
