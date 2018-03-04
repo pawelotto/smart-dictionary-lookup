@@ -1,19 +1,18 @@
 {
-  "name": "webext-dictionary-lookup",
+  "name": "smart-dictionary-lookup",
   "version": "1.0.0",
   "description": "Firefox/Chrome addon to check a word in a dictionary.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/avelotech/webext-dictionary-lookup.git"
+    "url": "git+https://github.com/pawelotto/smart-dictionary-lookup.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Paweł Otto",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/avelotech/webext-dictionary-lookup#readme",
+  "homepage": "https://github.com/pawelotto/smart-dictionary-lookup#readme",
   "dependencies": {
     "@types/fs-extra": "^5.0.1",
     "@types/gulp-zip": "^4.0.0",
