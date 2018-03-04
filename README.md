@@ -1,4 +1,4 @@
-# webext-dictionary-lookup #
+# smart-dictionary-lookup #
 
 Firefox/Chrome addon to check a word in a dictionary. 
 
