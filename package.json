@@ -9,14 +9,13 @@
     "type": "git",
     "url": "git+https://github.com/pawelotto/smart-dictionary-lookup.git"
   },
-  "keywords": [],
+  "keywords": ["webext", "firefox", "chrome", "addons"],
   "author": "Paweł Otto",
   "license": "ISC",
   "homepage": "https://github.com/pawelotto/smart-dictionary-lookup#readme",
   "dependencies": {
     "@types/fs-extra": "^5.0.1",
     "@types/gulp-zip": "^4.0.0",
-    "fs-extra": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-zip": "^4.1.0",
     "web-ext": "^2.4.0"
