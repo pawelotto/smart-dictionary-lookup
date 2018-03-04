@@ -1,7 +1,7 @@
 {
   "name": "smart-dictionary-lookup",
   "version": "1.0.0",
-  "description": "Firefox/Chrome addon to check a word in a dictionary.",
+  "description": "Firefox/Chrome extension to quickly lookup a word in a dictionary. This extension aims to be extremely useful, easy to use and quick. Just double click any word on any website and here you have it - a translation in your favourite language!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,12 +9,16 @@
     "type": "git",
     "url": "git+https://github.com/pawelotto/smart-dictionary-lookup.git"
   },
-  "keywords": ["webext", "firefox", "chrome", "addons"],
+  "keywords": [
+    "webext",
+    "firefox",
+    "chrome",
+    "addons"
+  ],
   "author": "Paweł Otto",
   "license": "ISC",
   "homepage": "https://github.com/pawelotto/smart-dictionary-lookup#readme",
   "dependencies": {
-    "@types/fs-extra": "^5.0.1",
     "@types/gulp-zip": "^4.0.0",
     "gulp": "^3.9.1",
     "gulp-zip": "^4.1.0",
