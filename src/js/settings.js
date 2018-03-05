@@ -9,18 +9,23 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 function saveSettings() {
-  var from = document.getElementById("fromLang").value
-  var to = document.getElementById("toLang").value
+  var from = document.getElementById("fromLang").value || ""
+  var to = document.getElementById("toLang").value || ""
   browser.storage.local.set({ fromLang: from })
   browser.storage.local.set({ toLang: to })
+  browser.tabs.reload()
 }
 
 function readSettings() {
   browser.storage.local.get("fromLang", function(val) {
-    document.getElementById("fromLang").value = val.fromLang
+    if(val.fromLang){
+      document.getElementById("fromLang").value = val.fromLang
+    }
   })
   browser.storage.local.get("toLang", function(val) {
-    document.getElementById("toLang").value = val.toLang
+    if(val.toLang){
+      document.getElementById("toLang").value = val.toLang
+    }
   })
   browser.storage.local.get("power").then(function(val) {
     var powerText = document.getElementById("powerText")

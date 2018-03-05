@@ -13,8 +13,10 @@
     }
   },
   "icons": {
+    "36": "icons/book.svg",
     "48": "icons/book.svg",
-    "96": "icons/book.svg"
+    "96": "icons/book.svg",
+    "128": "icons/book.svg"
   },
   "content_scripts": [
     {
